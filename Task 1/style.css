@@ -1,0 +1,320 @@
+.header{
+    background-image: url(Beautiful\ Clouds.jpeg);
+    background-repeat: repeat;
+    background-size:100% 100%;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    color: #1c1c1c;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+}
+
+.div1{
+
+background-image: url(background.jpeg); height: 50vh;
+background-size:50%;
+background-repeat:repeat;
+background-attachment: fixed;
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #1c1c1c;
+    
+}
+h1{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: xx-large;
+   color: #1c1c1c;
+}
+
+
+}
+.div2{
+    background-image: url(dodge.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    p{
+        font-size: large;
+        font-style: italic;
+        color: #1c1c1c;
+    
+    }
+    h2{
+        color: #1c1c1c;
+    }
+    li{
+        color: #1c1c1c;
+    }
+}
+.dr{
+    display: grid;
+    tab-size:50px ;
+}
+.drrr{
+    display: flex; 
+    justify-content: end;
+    background-color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+.a1 {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url(Adolf\ \ Logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.car-card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car-card h2 {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+
+.car-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.car-card button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cu2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cu1 {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contact-info p {
+    margin: 0;
+}
+
+.ul1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.ul1 li {
+    margin-left: 20px;
+}
+
+.ul1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainzz {
+    padding: 20px;
+    background-image: url(car\ showroom.jpeg);
+    background-repeat: no-repeat;
+    background-size:100%100%;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-us h1, .contact-us h2 {
+    margin: 10px 0;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.contact-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formzz {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formzz input, .formzz textarea, .formzz button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formzz button {
+    background: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.app-promo {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.app-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerzz {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerzz-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footezz-section {
+    width: 23%;
+}
+
+.footerzz-section h3 {
+    margin-top: 0;
+}
+
+.footerzz-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerzz-section ul li {
+    margin: 5px 0;
+}
+
+.footerzz-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerzz-section input {
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.footerzz-section button {
+    padding: 10px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
